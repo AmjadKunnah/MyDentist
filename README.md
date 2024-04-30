@@ -1,2 +1,2 @@
 # MyDentist
-A dental clinic Management System 
+A Dental Clinic Management System 
