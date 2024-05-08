@@ -7,6 +7,8 @@ This application can be used by small dental clinics to easily manage a clinic o
 *	Receptionists 
 *	Patients 
 *	Doctors
+*	Appointments
+*	Invoices
 
 ## Features of the Application
 -	This application Supports two user types:
