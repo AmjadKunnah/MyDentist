@@ -445,7 +445,7 @@ The following are the technologies that have been used in the development of thi
 
 ## Source Code
 
-The software code has been divided into four different packages:
+The software code has been divided into five different packages:
 
 *	Data Access Object (DAO): Contains the data access layer of the software that interacts directly with the database and its tables. Used for retrieval and modification of data.
 *	Data Transfer Object (DTO): Contains the data transfer layer that allows the data to be transferred between the data access layer and the UI layer.
