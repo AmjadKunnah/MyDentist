@@ -443,6 +443,13 @@ The following are the technologies that have been used in the development of thi
 *	SQLite Studio
 
 
+## ER Diagram
+
+The ER diagram for the sample schema that has been used in the application.
+
+![ER Diagram](/ER%20Diagram/ER%20Diagram%20(MyDentist)%20(PNG).png)
+
+
 ## Source Code
 
 The software code has been divided into five different packages:
