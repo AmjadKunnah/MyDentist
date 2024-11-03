@@ -38,6 +38,8 @@ public class DeveloperPage extends JInternalFrame {
 	private JLabel lblPhoneNO;
 	private JLabel lblPhoneNO2;
 	private JLabel lblDeveloperPhoto;
+	private JLabel lblGitHub;
+	private JLabel lblGitHub2;
 	/*End of Variables*/
 
 	
@@ -79,34 +81,34 @@ public class DeveloperPage extends JInternalFrame {
 		getContentPane().setLayout(null);
 		
 		/*Twitter Label*/
-		lblTwitter = new JLabel("Twitter:");
+		lblTwitter = new JLabel("X:");
 		lblTwitter.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTwitter.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblTwitter.setForeground(Color.BLACK);
 		lblTwitter.setFont(new Font("Kartika", Font.BOLD, 20));
-		lblTwitter.setBounds(95, 392, 141, 34);
+		lblTwitter.setBounds(95, 372, 141, 34);
 		getContentPane().add(lblTwitter);
 		/*End of Twitter Label*/
 		
 		
 		/*Twitter 2 Label*/
-		lblTwitter2 = new JLabel("@AmjadKunnah");
+		lblTwitter2 = new JLabel("@AmjadAbdulAzim");
 		lblTwitter2.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblTwitter2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTwitter2.setForeground(Color.BLACK);
 		lblTwitter2.setFont(new Font("Kartika", Font.BOLD | Font.ITALIC, 20));
-		lblTwitter2.setBounds(277, 392, 279, 34);
+		lblTwitter2.setBounds(277, 372, 279, 34);
 		getContentPane().add(lblTwitter2);
 		/*End of Twitter 2 Label*/
 		
 		
 		/*Facebook 2 Label*/
-		lblFacebook2 = new JLabel("AmjadKunnah");
+		lblFacebook2 = new JLabel("Amgd Azim");
 		lblFacebook2.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblFacebook2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblFacebook2.setForeground(Color.BLACK);
 		lblFacebook2.setFont(new Font("Kartika", Font.BOLD | Font.ITALIC, 20));
-		lblFacebook2.setBounds(277, 347, 279, 34);
+		lblFacebook2.setBounds(277, 327, 279, 34);
 		getContentPane().add(lblFacebook2);
 		/*End of Facebook 2 Label*/
 
@@ -117,7 +119,7 @@ public class DeveloperPage extends JInternalFrame {
 		lblFacebook.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblFacebook.setForeground(Color.BLACK);
 		lblFacebook.setFont(new Font("Kartika", Font.BOLD, 20));
-		lblFacebook.setBounds(95, 347, 141, 34);
+		lblFacebook.setBounds(95, 327, 141, 34);
 		getContentPane().add(lblFacebook);
 		/*End of Facebook Label*/
 
@@ -128,18 +130,18 @@ public class DeveloperPage extends JInternalFrame {
 		lblPhoneNO.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblPhoneNO.setForeground(Color.BLACK);
 		lblPhoneNO.setFont(new Font("Kartika", Font.BOLD, 20));
-		lblPhoneNO.setBounds(95, 302, 141, 34);
+		lblPhoneNO.setBounds(95, 282, 141, 34);
 		getContentPane().add(lblPhoneNO);
 		/*End of Phone NO Label*/
 
 		
 		/*Email 2 Label*/
-		lblEmail2 = new JLabel("Amjad.Kunnah@gmail.com");
+		lblEmail2 = new JLabel("Amjad.Azim.AA@gmail.com");
 		lblEmail2.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblEmail2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblEmail2.setForeground(Color.BLACK);
 		lblEmail2.setFont(new Font("Kartika", Font.BOLD | Font.ITALIC, 20));
-		lblEmail2.setBounds(277, 249, 279, 34);
+		lblEmail2.setBounds(277, 237, 279, 34);
 		getContentPane().add(lblEmail2);
 		/*End of Email 2 Label*/
 
@@ -150,7 +152,7 @@ public class DeveloperPage extends JInternalFrame {
 		lblEmail.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
 		lblEmail.setForeground(Color.BLACK);
 		lblEmail.setFont(new Font("Kartika", Font.BOLD, 20));
-		lblEmail.setBounds(95, 249, 141, 34);
+		lblEmail.setBounds(95, 237, 141, 34);
 		getContentPane().add(lblEmail);
 		/*End of Email Label*/
 
@@ -183,7 +185,7 @@ public class DeveloperPage extends JInternalFrame {
 		lblPhoneNO2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblPhoneNO2.setForeground(Color.BLACK);
 		lblPhoneNO2.setFont(new Font("Kartika", Font.BOLD | Font.ITALIC, 20));
-		lblPhoneNO2.setBounds(277, 302, 279, 34);
+		lblPhoneNO2.setBounds(277, 282, 279, 34);
 		getContentPane().add(lblPhoneNO2);
 		/*End of Phone NO 2 Label*/
 
@@ -205,6 +207,28 @@ public class DeveloperPage extends JInternalFrame {
 		}
 		getContentPane().add(lblDeveloperPhoto);
 		/*End of Developer Photo Label*/
+
+		
+		/*GitHub Label*/
+		lblGitHub = new JLabel("GitHub:");
+		lblGitHub.setHorizontalAlignment(SwingConstants.CENTER);
+		lblGitHub.setForeground(Color.BLACK);
+		lblGitHub.setFont(new Font("Kartika", Font.BOLD, 20));
+		lblGitHub.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
+		lblGitHub.setBounds(95, 414, 141, 34);
+		getContentPane().add(lblGitHub);
+		/*End of GitHub Label*/
+		
+		
+		/*GitHub2 Label*/
+		lblGitHub2 = new JLabel("@AmjadKunnah");
+		lblGitHub2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblGitHub2.setForeground(Color.BLACK);
+		lblGitHub2.setFont(new Font("Kartika", Font.BOLD | Font.ITALIC, 20));
+		lblGitHub2.setBorder(new LineBorder(new Color(102, 51, 153), 2, true));
+		lblGitHub2.setBounds(277, 414, 279, 34);
+		getContentPane().add(lblGitHub2);
+		/*End of GitHub2 Label*/
 
 
 	}
