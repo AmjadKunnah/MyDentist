@@ -39,6 +39,18 @@ This application can be used by small dental clinics to easily manage a clinic o
 
 *3. When an appointment deleted, automatically the invoice for this appointment will be deleted.*
 
+## How To Run The Software And Requirements
+- First To run a JAR file on Windows, Mac or Linux, follow these steps:
+1. Verify that Java is installed on your computer.
+2. Confirm the computer’s PATH variable includes Java’s \bin directory.
+3. Double-click the JAR file if auto-run has been configured.
+4. Run the JAR file on the command line or terminal window if a double-clicking fails.
+- To run the software Double-click MyDentist JAR file in MyDentist folder.
+- Requirement to run the JAR file you should have JAVA 1.8
+
+***Note:***
+- *To make the software work with the database, the JAR file and DATABASE file should STAY together in the same folder.*
+
 ## Application Preview
 ### **Login Page**
 
