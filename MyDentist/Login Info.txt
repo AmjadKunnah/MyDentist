@@ -1,0 +1,14 @@
+-----------------
+SUPERVISORS
+Username: root
+Password: 1234
+User Type: Supervisor
+-----------------
+RECEPTIONISTS
+Username: too
+Password: oooo
+User Type: receptionist
+-----------------
+When you login as a supervisor you can find many login selections as a supervisor or a receptionist. 
+For supervisor login details : Staff>supervisors>supervisors record then look for username and password details.
+For receptionist login details: Staff>receptionist>receptionist record then look for username and password details.
